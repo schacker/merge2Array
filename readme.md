@@ -53,7 +53,7 @@ function merge2Array(origin, target) {
 }
 ```
 
-![结果](http://schacker.lijundong.com/filter+indexOf.png)
+![result](http://schacker.lijundong.com/filter+indexOf.png)
 
 #### 第二种
 
