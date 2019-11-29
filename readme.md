@@ -53,7 +53,7 @@ function merge2Array(origin, target) {
 }
 ```
 
-> ![结果](http://schacker.lijundong.com/filter+indexOf.png)
+![结果](http://schacker.lijundong.com/filter+indexOf.png)
 
 #### 第二种
 
@@ -80,7 +80,8 @@ function merge2Array1(origin, target) {
   return result
 }
 ```
-> ![结果](http://schacker.lijundong.com/for+for.png)
+
+![结果](http://schacker.lijundong.com/for+for.png)
 
 #### 第三种
 
@@ -99,7 +100,8 @@ function merge2Array2(origin, target) {
   return result
 }
 ```
-> ![结果](http://schacker.lijundong.com/for+includes.png)
+
+![结果](http://schacker.lijundong.com/for+includes.png)
 
 #### 第四种
 
@@ -122,7 +124,8 @@ function merge2Array3(origin, target) {
   return result
 }
 ```
-> ![结果](http://schacker.lijundong.com/sort+for.png)
+
+![结果](http://schacker.lijundong.com/sort+for.png)
 
 #### 第五种
 
@@ -137,7 +140,8 @@ function merge2Array4 (origin, target) {
   return Array.from(new Set([...origin, ...target]))
 }
 ```
-> ![结果](http://schacker.lijundong.com/ArrayFrom+Set.png)
+
+![结果](http://schacker.lijundong.com/ArrayFrom+Set.png)
 
 #### 第六种
 
@@ -161,7 +165,8 @@ function merge2Array5(origin, target) {
   return result
 }
 ```
-> ![结果](http://schacker.lijundong.com/for+obj.png)
+
+![结果](http://schacker.lijundong.com/for+obj.png)
 
 #### 第七种
 
@@ -185,7 +190,8 @@ function merge2Array6(origin, target) {
   return result
 }
 ```
-> ![结果](http://schacker.lijundong.com/for+set.png)
+
+![结果](http://schacker.lijundong.com/for+set.png)
 
 ### 数据级上升（150W）
 
@@ -193,15 +199,15 @@ function merge2Array6(origin, target) {
 
 #### Array.from + Set
 
-> ![结果](http://schacker.lijundong.com/ArrayFrom%20+%20Set%20in%20150W.png)
+![结果](http://schacker.lijundong.com/ArrayFrom%20+%20Set%20in%20150W.png)
 
 #### for + obj-keys
 
-> ![结果](http://schacker.lijundong.com/for+obj%20in%20150W.png)
+![结果](http://schacker.lijundong.com/for+obj%20in%20150W.png)
 
 #### for + set
 
-> ![结果](http://schacker.lijundong.com/for%20+%20set%20in%20150W.png)
+![结果](http://schacker.lijundong.com/for%20+%20set%20in%20150W.png)
 
 ### 总结
 
